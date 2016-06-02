@@ -22,12 +22,6 @@ def convert2jpg(pic2convert):
     .save('%sjpg' % pic2convert[:-3])
     
 
-#NOT USED    
-#def delete_file(file2delete):
-#    os.remove(file2delete)
-
-
-
 def main():
     if not os.path.exists(garmin_folder):
         os.makedirs(garmin_folder)
